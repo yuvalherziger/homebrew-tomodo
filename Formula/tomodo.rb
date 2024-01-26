@@ -7,7 +7,7 @@ class Tomodo < Formula
 
   def install
     bin.install "tomodo"
-    lib.install Dir["_internal"]
+    bin.install Dir["_internal"]
   end
 end
 
