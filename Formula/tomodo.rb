@@ -6,8 +6,10 @@ class Tomodo < Formula
   license "MIT"
 
   def install
-    bin.install "tomodo"
-    lib.install Dir["_internal"]
+    # bin.install "tomodo"
+    # lib.install Dir["_internal"]
+    libexec.install Dir["*"]
+    bin.write_exec_script libexec/"script.sh"
   end
 end
 
