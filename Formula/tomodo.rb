@@ -1,14 +1,14 @@
 class Tomodo < Formula
   desc "A Tool for MongoDB on Docker"
-  homepage "https://github.com/yuviherziger/tomodo"
+  homepage "https://tomodo.dev"
   license "MIT"
 
   if Hardware::CPU.intel?
-    url "https://github.com/yuviherziger/tomodo/releases/download/1.1.1/tomodo-amd64-1.1.1.tar.gz"
-    sha256 "c4a2999a816f3b8bb9d06816af0d8c6e9f288fe675510d55b0a97a68d3a7d392"
+    url "https://github.com/yuvalherziger/tomodo/releases/download/1.1.2/tomodo-amd64-1.1.2.tar.gz"
+    sha256 "1ffb8b8d9731cf1fb618c383afe344a762b4fbf3c794a21c4fd8f7e62ecd4c4f"
   elsif Hardware::CPU.arm?
-    url "https://github.com/yuviherziger/tomodo/releases/download/1.1.1/tomodo-arm64-1.1.1.tar.gz"
-    sha256 "5b1a886174f1db8cfd9c943269a9d0e3757608081a9a647d924e8827d3f0ee65"
+    url "https://github.com/yuvalherziger/tomodo/releases/download/1.1.2/tomodo-arm64-1.1.2.tar.gz"
+    sha256 "5c394624eaa72611030447828fe266cb6f85f9e7f350ec6d0e0a308de8837219"
   end
 
 
