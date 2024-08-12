@@ -4,11 +4,11 @@ class Tomodo < Formula
   license "MIT"
 
   if Hardware::CPU.intel?
-    url "https://github.com/yuvalherziger/tomodo/releases/download/1.1.5/tomodo-amd64-1.1.5.tar.gz"
-    sha256 "71902de5716452f63339d2d8c099e481ca059c3be0dd45e2c318301c280d55c6"
+    url "https://github.com/yuvalherziger/tomodo/releases/download/1.2.0/tomodo-amd64-1.2.0.tar.gz"
+    sha256 "40d5c4200b30cafa0a9033b4c5a059f00f62e9c5ded3b6d2a7a40b598ad1d8dd"
   elsif Hardware::CPU.arm?
-    url "https://github.com/yuvalherziger/tomodo/releases/download/1.1.5/tomodo-arm64-1.1.5.tar.gz"
-    sha256 "d233f94bf8cb711b5d0bc775b4215faa8a20b175f147edd2225d90f9df25eda1"
+    url "https://github.com/yuvalherziger/tomodo/releases/download/1.2.0/tomodo-arm64-1.2.0.tar.gz"
+    sha256 "0c59f48477ed1ba996d31d55a4310023228c3dd6a2a50b3ca6d6f9468acd1a2a"
   end
 
 
